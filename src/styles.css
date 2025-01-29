@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    /* background-color: rebeccapurple; */
+  }
+
+header {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.logo {
+  background-color: gray;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.background-container {
+  background-image: url('./images/restaurantBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  background-size: 100%;
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 20px;
+}
+
+.restaurant-title {
+  font-size: 45px;
+  display: flex;
+  padding-left: 70%;
+  color: rgb(58, 58, 58);
+}
+
+.page-container {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 5%;
+}
+
+.about-background-container {
+  background-image: url('./images/GreenMeadow.jpg');
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 100%;
+  background-size: 80%;
+  display: flex;
+}
+
+.text-content {
+  width: 15%;
+}
+
+.text-heading {
+
+}
+
+.text-body {
+  padding-top: 15px;
+  max-height: 345px;
+  overflow: auto;
+}
+
+.menu-background-container {
+  background-image: url('./images/menuImage.jpg');
+  height: auto;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 100%;
+  background-size: 100%;
+  display: flex;
+}
+
+#contact-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact-background-container {
+  background-image: url('./images/restuarantInside.jpg');
+  height: auto;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 45%;
+  background-size: 100%;
+  display: flex;
+}
+
+#contact-opening-hours {
+  width: 40%
+}
+
+ul {
+  margin-left: -40px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-text-container {
+  display: flex;
+  justify-content:space-between;
+  width: 45%
+}
